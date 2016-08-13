@@ -1,0 +1,19 @@
+
+http://localhost:8080/api/v1/init
+{
+"name":"AAAA",
+"version": "1.0"
+}
+
+
+http://localhost:8080/api/v1/123
+{
+"add": [
+{"key":"s", "value": "v"},
+{"key":"s2", "value": "v2"},
+{"key":"s3", "value": "v3"}
+],
+"remove": ["aaa","bbb","ccc"]
+}
+
+
